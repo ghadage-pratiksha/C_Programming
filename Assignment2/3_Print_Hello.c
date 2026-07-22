@@ -4,7 +4,7 @@
 #include<stdio.h>
 void Display(int iNo)
 {
-	if(iNo <= 10)
+	if(iNo < 10)
 	{
 		printf("Hello");
 	}
