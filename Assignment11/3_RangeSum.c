@@ -8,7 +8,7 @@ int RangeSum(int iStart, int iEnd)
     {
         iStart = - iStart;
     }
-    if(iStart > iEnd)
+    if(iStart >= iEnd)
     {
         printf("Invalid range\n");
     }
