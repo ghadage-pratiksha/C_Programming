@@ -2,10 +2,6 @@
 
 void RangeDisplayEven(int iStart, int iEnd)
 {
-    if(iStart < 0)
-    {
-        iStart = - iStart;
-    }
     if(iStart >= iEnd)
     {
         printf("Invalid Range");
