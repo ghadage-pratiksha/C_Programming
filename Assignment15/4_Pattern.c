@@ -8,7 +8,7 @@ void Pattern(int iRow, int iCol)
     {
         for(j = 1; j <= iCol; j++)
         {
-            if(j % 2 == 1)
+            if(j % 2 == 0)
             {
                 printf("* ");
             }
