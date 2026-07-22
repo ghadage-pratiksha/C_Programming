@@ -9,7 +9,7 @@ int OddFactorial(int iNo)
     {
         iNo = -iNo;
     }
-    for(iCnt = iNo; iCnt > 0; iCnt--)
+    for(iCnt = 1; iCnt<=iNo; iCnt++)
     {
         if(iCnt % 2 != 0)
         {
