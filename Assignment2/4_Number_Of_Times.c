@@ -5,9 +5,9 @@ void Display(int iNo, int iFrequency)
 {
     int iCnt = 0;
 
-    for(iCnt = 1; iCnt <= iFrequency; iCnt++)
+    for(iCnt = 0; iCnt <= iFrequency; iCnt++)
     {
-        printf("%d "iNo);
+        printf("%d ",iNo);
     }
 }
 
