@@ -6,7 +6,7 @@ void RangeDisplay(int iStart, int iEnd)
     {
         iStart = - iStart;
     }
-    if(iStart > iEnd)
+    if(iStart >= iEnd)
     {
         printf("Invalid Range");
     }
