@@ -3,11 +3,10 @@
 #include<stdio.h> 
 void Display()  
 { 
-	int i = 0;  
-	i= 5;
-	while( i >= 1)  
+	inti = 5;  
+	while( i >= 0)  
 	{
-		printf(" %d ",i); 
+		printf(" %d\n",i); 
   		i--;
  	}
 }  
