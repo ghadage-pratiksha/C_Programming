@@ -3,6 +3,10 @@ int MultDigit(int iNo)
 {
     int iDigit = 0;
     int iMul =1;
+    if(iNo<0)
+    {
+        iNo=-iNo;
+    }
     while(iNo !=0)
     {
         iDigit= iNo % 10;
