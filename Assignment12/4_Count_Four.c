@@ -2,6 +2,10 @@
 int CountFour(int iNo)
 {
     int iCnt = 0;
+    if(iNo<0)
+    {
+        iNo=-iNo;
+    }
     while(iNo != 0)
     {
         if((iNo % 10)==4)
