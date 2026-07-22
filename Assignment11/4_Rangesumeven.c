@@ -4,7 +4,7 @@ int RangeSumEven(int iStart, int iEnd)
 {
     int iSum = 0, iCnt = 0;
 
-    if(iStart > iEnd)
+    if(iStart >= iEnd)
     {
         printf("Invalid range\n");
     }
