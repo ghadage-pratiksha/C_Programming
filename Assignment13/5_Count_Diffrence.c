@@ -5,6 +5,10 @@ int CountDiff(int iNo)
     int iDigit = 0;
     int iEvenSum = 0;
     int iOddSum = 0;
+    if(iNo<0)
+    {
+        iNo=-iNo;
+    }
 
     while(iNo != 0)
     {
