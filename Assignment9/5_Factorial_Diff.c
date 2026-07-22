@@ -11,17 +11,13 @@ int FactorialDiff(int iNo)
     {
         iNo = -iNo;
     }
-     for(i = iNo; i >= 2; i--)
+     for(int i=1; i<=iNo;i++)
     {
         if(i % 2 == 0)
         {
             iFact1 = iFact1 * i;
         }
-    }
-
-    for(i = iNo; i >= 1; i--)
-    {
-        if(i % 2 != 0)
+        else if(i % 2 != 0)
         {
             iFact2 = iFact2 * i;
         }
