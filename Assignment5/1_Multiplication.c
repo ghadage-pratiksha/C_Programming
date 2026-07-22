@@ -4,7 +4,15 @@
 int MultFactor(int iNo)
 {
     int iMult = 1;
-    for(int i = 1; i < iNo; i++)
+    if(iNo == 0)
+    {
+        return 0;
+    }
+    if(iNo < =0)
+    {
+        iNo = -iNo
+    } 
+    for(int i = 2; i < iNo/2; i++)
     {
         if(iNo % i == 0)
         {
