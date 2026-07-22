@@ -10,7 +10,7 @@ int EvenFactorial(int iNo)
         iNo = -iNo;
     }
 
-    for(i = iNo; i >= 2; i--)
+    for(i = iNo; i <=iNo; i++)
     {
         if(i % 2 == 0)
         {
