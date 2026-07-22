@@ -8,7 +8,6 @@ int SumNonFact(int iNo)
     {
         if(iNo % i != 0)
         {
-            printf("%d\n",i);
             iSum = iSum + i;
         }
     }
